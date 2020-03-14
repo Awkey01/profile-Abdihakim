@@ -1,0 +1,223 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: #12475f;
+    color:#fff;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .container{
+    margin:auto;
+  }
+  
+  .primary-text{
+    color:#e2c20d
+  }
+  
+  .logo{
+    position: relative;;
+    float: left;
+    top: 0%;
+    z-index: 1;
+    color: #ffff;
+    border-radius: 20px;
+  
+  }
+  
+  .primary-background{
+    color:#ffff
+  }
+  
+  /*Header*/
+  #main-header{
+    border-bottom: 1px solid #ffff;
+    overflow: hidden;
+    padding: 20px;
+    margin: 20px ;
+  }
+  /*Nav Bar*/
+  
+  #navbar{
+    text-transform: uppercase;
+    float: right;
+  }
+  
+  
+  #navbar li{
+    display: inline;
+    padding-right: 20px ;
+    list-style: none;
+    margin-right: 20px;
+  }
+  
+  
+  #navbar a{
+    text-decoration: none;
+    color:#ea107d
+  }
+  
+  #navbar li.current a, #navbar a:hover{
+    color:#f00c45;
+    border-bottom: 3px solid #3de6c9;
+    padding-bottom:3px;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  #section-1{
+  text-align: center;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  padding: 40px;
+  color:#ffff;
+  
+  
+  } 
+  
+  
+  /*Section Animation*/
+  
+  
+  
+  .image-1{
+    position: relative;
+    font-size: 16px;
+    animation-name: image;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes image{
+  0%{right:-1000px;}
+  100%{right:0; border-radius: 60%;}
+  }
+  
+  
+  .content{
+    position: relative;
+    font-size: 18px;
+    animation-name: content;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  
+  }
+  @keyframes content{
+  0%{left:-1000px;}
+  100%{left:0; color: #fff;}
+  }
+  
+  
+  
+  
+  
+  
+  
+  #main-f{
+  bottom: 0;
+  font-size: 17px;
+   text-align: center;
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*-------------------------ABOUT PAGE STYLES-------------------*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*--------------------------PROJECT PAGE STYLES---------------------*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*----------------------------CONTACTS-------------------------------*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
