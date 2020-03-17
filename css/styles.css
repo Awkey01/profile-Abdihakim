@@ -1,223 +1,107 @@
 
+:root{
+  --primary:#2d5986;
+  --secondary:#19334d;
+  --light:#ffff;
+  --opt-a:#009999;
+  --opt-b:#660033;
+
+}
+
+/* Body styles */
+
+
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
-    background-color: #12475f;
-    color:#fff;
-    line-height: 1.6;
-    text-align: center;
-  }
-  .container{
-    margin:auto;
-  }
+
+   margin: 0;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background: var(--secondary);
+   color: var(--light);
+   font-size: 17px;
+   line-height: 1.4;
+}
+
+.primary-text{
+  color: var(--opt-b);
+}
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+/* Header style */
+
+header {
+  background: var(--opt-a);
+  color:var(--light);
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: var(--opt-b) 3px solid;
+
+}
+header a{
+text-decoration: none;
+color:var(--light);
+text-transform: uppercase;
+font-size: 17px;
+}
+
+header ul{
+  padding: 0;
+  margin: 0;
+}
+
+header li {
+  display:inline;
+  padding: 0 20px 0 20px;
   
-  .primary-text{
-    color:#e2c20d
-  }
+
+}
+header #log {
+  float: left;
+
+}
+
+header #log h1{
+  margin: 0;
   
-  .logo{
-    position: relative;;
-    float: left;
-    top: 0%;
-    z-index: 1;
-    color: #ffff;
-    border-radius: 20px;
-  
-  }
-  
-  .primary-background{
-    color:#ffff
-  }
-  
-  /*Header*/
-  #main-header{
-    border-bottom: 1px solid #ffff;
-    overflow: hidden;
-    padding: 20px;
-    margin: 20px ;
-  }
-  /*Nav Bar*/
-  
-  #navbar{
-    text-transform: uppercase;
-    float: right;
-  }
-  
-  
-  #navbar li{
-    display: inline;
-    padding-right: 20px ;
-    list-style: none;
-    margin-right: 20px;
-  }
-  
-  
-  #navbar a{
-    text-decoration: none;
-    color:#ea107d
-  }
-  
-  #navbar li.current a, #navbar a:hover{
-    color:#f00c45;
-    border-bottom: 3px solid #3de6c9;
-    padding-bottom:3px;
-  }
-  img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-  #section-1{
+}
+header nav{
+  float:right;
+  margin-top:20px;
+}
+
+header .current a{
+  color: var(--opt-b);
+  font-weight: bold;
+
+}
+
+header a:hover{
+  color: var(--primary);
+  font-weight: bold;
+
+}
+
+/* Showcase */
+
+.showcase{
+  min-height: 500px;
   text-align: center;
-  position: relative;
-  top: 50%;
-  bottom: 50%;
-  padding: 40px;
-  color:#ffff;
-  
-  
-  } 
-  
-  
-  /*Section Animation*/
-  
-  
-  
-  .image-1{
-    position: relative;
-    font-size: 16px;
-    animation-name: image;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-  }
-  @keyframes image{
-  0%{right:-1000px;}
-  100%{right:0;}
-  }
-  
-  
-  .content{
-    position: relative;
-    font-size: 18px;
-    animation-name: content;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-  
-  }
-  @keyframes content{
-  0%{left:-1000px;}
-  100%{left:0; color: #fff;}
-  }
-  
-  
-  
-  
-  
-  
-  
-  #main-f{
-  bottom: 0;
-  font-size: 17px;
-   text-align: center;
-   
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  /*-------------------------ABOUT PAGE STYLES-------------------*/
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /*--------------------------PROJECT PAGE STYLES---------------------*/
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /*----------------------------CONTACTS-------------------------------*/
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  color:var(--light);
+}
+.showcase h1{
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.showcase p {
+  font-size: 20px;
+}
