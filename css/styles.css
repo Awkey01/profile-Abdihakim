@@ -61,7 +61,7 @@ header ul{
 header li {
   display:inline;
   padding: 0 20px 0 20px;
-  
+
 
 }
 header #log {
@@ -71,18 +71,13 @@ header #log {
 
 header #log h1{
   margin: 0;
-  
+
 }
 header nav{
   float:right;
   margin-top:20px;
 }
 
-header .current a{
-  color: var(--opt-b);
-  font-weight: bold;
-
-}
 
 header a:hover{
   color: var(--primary);
@@ -129,7 +124,7 @@ article.about{
   width:65%;
   float: left;
   margin-top: 15px;
-  }  
+  }
 
 aside.sidebar {
   float: right;
@@ -173,7 +168,7 @@ aside.sidebar li {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  color: #9dff00;
+  color: #d2e7af;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
@@ -219,7 +214,7 @@ aside#sidebar .contact textarea {
   color: #ffffff;
   background:var(--opt-a) ;
   text-align: center;
-  
+
 
 }
 /* media queries */
@@ -257,4 +252,4 @@ aside#sidebar  .contact input, .contact textarea {
    margin-bottom: 5px;
   }
 
-} 
+}
